@@ -1,30 +1,30 @@
 const user = {
-  name: "Liza",
-  city: "New York",
+  name: "Coco Der Nero",
+  city: "Kisumu",
   bio: "I made this!",
-  color: "firebrick",
+  color: "black",
   links: {
-    github: "https://github.com/liza",
-    linkedin: "https://www.linkedin.com/in/liza/",
+    github: "https://github.com/Neville777",
+    linkedin: "https://www.linkedin.com/in/Neville_james/",
   },
   projects: [
     {
       id: 1,
-      name: "Reciplease",
-      about: "A recipe tracking app",
-      technologies: ["Rails", "Bootstrap CSS"],
+      name: "ROBO FIGHT CLUB",
+      about: "Choose your best squad to defend the Galaxy Game",
+      technologies: ["React", "Bootstrap CSS"],
     },
     {
       id: 2,
-      name: "Kibbles N Bitz",
-      about: "Tinder for dogs",
+      name: "Gym",
+      about: "TThis app allows you to track your gym exersice",
       technologies: ["React", "Redux"],
     },
     {
       id: 3,
-      name: "Alienwares",
-      about: "Etsy for aliens",
-      technologies: ["React", "Redux", "Rails"],
+      name: "Next.js",
+      about: "COMING SOON",
+      technologies: ["React", "Javascript", "Next"],
     },
   ],
 };

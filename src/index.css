@@ -41,16 +41,18 @@ nav a {
   transition: 0.1s;
 }
 
-nav a:hover,
+nav a:hover{
+  color: rgb(61, 112, 9);
+}
 nav a:active {
-  color: tomato;
-  border-bottom: 2px solid tomato;
+  color: rgb(115, 187, 93);
+  border-bottom: 2px solid rgb(8, 5, 4);
 }
 
 #home {
   height: 50vh;
   min-height: 400px;
-  background-color: cornsilk;
+  background-color: rgb(134, 238, 65);
 }
 
 #home,
@@ -61,7 +63,7 @@ nav a:active {
   justify-content: center;
   flex-direction: column;
   text-align: center;
-  padding: 1rem;
+  padding: 50px;
 }
 
 #about img {
@@ -70,10 +72,11 @@ nav a:active {
 
 #about a {
   display: block;
+  color:rgb(233, 55, 10) ;
 }
 
 #projects {
-  background-color: cornsilk;
+  background-color: rgb(172, 169, 156);
   min-height: 400px;
 }
 
@@ -92,9 +95,9 @@ nav a:active {
 }
 
 .technologies span {
-  background-color: lightblue;
-  margin: 0.25rem;
-  padding: 0.5rem;
+  background-color: rgb(211, 16, 218);
+  margin: 5px;
+  padding: 10px;
   border-radius: 4px;
   display: inline-block;
 }
@@ -105,6 +108,10 @@ nav a:active {
   }
 
   .project-item {
-    width: 50%;
+    width: 80%;
+    border: #0f0d0d solid 1px;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: rgb(185, 240, 240);
   }
 }
